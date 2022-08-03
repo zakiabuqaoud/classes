@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- زكي خالد زكي ابو قاعود-->
+        <!--20172106-->
+        <title>design-6</title>
+        <meta charset="utf-8" name="design-6" content="design-6">
+        <style>
+            div.father{
+                border:1px solid #333;
+                width:800px;
+                height: 800px ;
+                margin : 50px auto ;
+               
+            }
+              .son1{
+                width:750px ;
+                height:600px ;
+                margin:100px 10px ;
+                border:1px solid rgb(115,113,130);
+                padding: 10px ;
+              
+            }
+            h1{
+                color:rgb(255,128,64);
+                width:80px;
+                height:20px ;
+                font-size:18px;
+                font-weight: bold ;
+            }
+            .p1{
+                color:rgb(255,128,64); 
+                font-weight: bold ;
+            }
+            .son2,.son3{
+                text-align: center;
+                margin:10px;
+            }
+            label{
+                font-weight: bold ;
+                margin:10px;
+                width:200px;
+            }
+            input{
+                margin: 10px;
+                width:200px
+            }
+            input[maxlength="10"]{
+                width:100px
+            }
+            span{
+                color:rgb(195,195,195);
+                font-weight: bold;
+            }
+            input[type="submit"]{
+                border-radius: 20px;
+                background-color:rgb(255,128,64);
+                width:150px ;
+                
+            }
+            
+          
+        
+        </style>
+    
+    </head>
+    <body>
+        <div class="father">
+            <form method="post" action="wep.php">
+                <div class="son1">
+                    <h1>Registration</h1>
+                    <p class="p1">New to Amazon.com rigister Below.</p>
+                    <div class="son2">
+                        <label>my name is: &nbsp;</label>
+                        <input type="text" > <br>
+                        <label>my e-mail address is: &nbsp;</label>
+                        <input type="email" > <br>
+                        <label>type it again: &nbsp;  </label>
+                        <input type="email"> <br>
+                        <label>my mobile phone number is: &nbsp;</label>
+                        <input type="text" maxlength="10" > 
+                        <span>(optinal)</span>
+                    </div>
+                    <br><br>
+                    <p class="p1">protect your information with a password</p>
+                    <p >This will be your only amazon.com password</p>
+                    
+                    <div class="son3">
+                        <label>enter anew password:&nbsp;</label>
+                        <input type="password"> <br>
+                        <label>type it again:&nbsp;</label>
+                        <input type="password"> <br>
+                        <input type="submit" value="create account">
+                    </div>
+                    
+                    
+                </div>
+            </form>    
+        </div>
+    
+    </body>
+</html>
